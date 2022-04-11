@@ -8,6 +8,6 @@ public class Util {
     public static <T> void exch(T[] arr, int lo, int hi) {
         T tmp = arr[lo];
         arr[lo] = arr[hi];
-        arr[hi] = arr[lo];
+        arr[hi] = tmp;
     }
 }
