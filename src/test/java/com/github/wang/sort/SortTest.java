@@ -3,13 +3,13 @@ package com.github.wang.sort;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Insert_Test {
+public class SortTest {
 
     @Test
-    public void InsertTest() {
+    public void SelectionTest() {
         Integer[] arr = new Integer[] {4, 3, 5, 4, 2, 1};
         Integer[] res = new Integer[] {1, 2, 3, 4, 4, 5};
-        Insert.sort(arr);
+        Selection.sort(arr);
         Assert.assertArrayEquals(arr, res);
     }
 }
