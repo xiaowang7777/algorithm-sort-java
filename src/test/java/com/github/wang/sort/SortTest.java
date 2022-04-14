@@ -28,4 +28,12 @@ public class SortTest {
         Shell.sort(arr, 2);
         Assert.assertArrayEquals(arr, res);
     }
+
+    @Test
+    public void MergeTest() {
+        Integer[] arr = new Integer[] {4, 3, 5, 4, 2, 1};
+        Integer[] res = new Integer[] {1, 2, 3, 4, 4, 5};
+        Merge.sort(arr);
+        Assert.assertArrayEquals(arr, res);
+    }
 }
